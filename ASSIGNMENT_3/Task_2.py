@@ -1,0 +1,10 @@
+import math
+user_input = input("Enter a number: ")
+number = float(user_input)
+sqrt_result = math.sqrt(number)
+log_result = math.log(number)
+sine_result = math.sin(number)
+print(f"\nResults for number {number}:")
+print(f"Square Root: {sqrt_result}")
+print(f"Natural Logarithm (ln): {log_result}")
+print(f"Sine (in radians): {sine_result}")
